@@ -1,0 +1,30 @@
+/* 滚动条设置 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(241, 137, 146);
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(241, 137, 146);
+  border-radius: 10px;
+  background: rgb(241, 137, 146);
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #e42ba6;
+  -webkit-box-shadow: inset 0 0 6px rgb(241, 137, 146);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #e42ba6;
+}
+/* 边角 即两个滚动条的交汇处 */
+::-webkit-scrollbar-corner {
+  background: #021b49;
+  border-radius: 10px;
+}
+/* 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件*/
+::-webkit-resizer {
+}
